@@ -1,0 +1,295 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(img/kaisen.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-family: vendya;
+}
+nav a:hover {
+    background-color: #555;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+    padding: 0;
+    font-family: vendya;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@font-face {
+    font-family: vendya;
+    src: url(vendya.otf) format('opentype'),
+        url(vendya.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: varsity;
+    src: url(varsity_regular.ttf) format('truetype'),
+        url(varsity_regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: london;
+    src: url(OldLondon.ttf) format('truetype'),
+        url(OldLondon.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    width: 70%;
+    height: min-content;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+main {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'vendya', sans-serif;
+}
+main h6 {
+    font-family: london;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.blue {
+    color: rgb(0, 204, 255);
+}
+.black {
+    color: black;
+}
+.red {
+    color: red;
+}
+content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+content h2 {
+    font-family: london;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+content p {
+    font-family: varsity, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+section h2 {
+    font-family: london;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+section p {
+    font-family: varsity, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+section li {
+    font-family: london, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    font-size: 40px;
+}
+section li:hover {
+    background-color: rgba(0, 204, 255, 0.5);
+    transition: background-color 0.3s ease;
+}
+section li a {
+    color: #000000;
+    text-decoration: none;
+}
+section ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+aside {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+aside h2 {
+    font-family: london;
+    font-size: 29px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+aside li {
+    font-family: varsity, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#megumi:hover {
+    background-color: rgba(0, 17, 255, 0.5);
+    transition: background-color 0.3s ease;
+}
+#nobara:hover {
+    background-color: rgba(255, 0, 242, 0.5);
+    transition: background-color 0.3s ease;
+}
+#sukuna:hover {
+    background-color: rgba(255, 0, 0, 0.836);
+    transition: background-color 0.3s ease;
+}
+#yuji:hover {
+    background-color: rgba(255, 0, 0, 0.452);
+    transition: background-color 0.3s ease;
+}
+#img2 {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+#img2:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+header h1 {
+    font-family: london;
+}
+header h6 {
+    font-family: vendya;
+    font-size: 18px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 83.9%;
+}
+button:hover {
+    background-color: #555;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
